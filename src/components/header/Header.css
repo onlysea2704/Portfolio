@@ -3,7 +3,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: var(--z-index);
+    z-index: calc((--z-index) + 2);
+    z-index: 10;
     background-color: var(--body-color);
 }
 
